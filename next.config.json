@@ -1,0 +1,14 @@
+{
+  "experimental": {
+    "outputFileTracingIncludes": {
+      "/*": [
+        "./cache/**/*"
+      ]
+    },
+    "serverComponentsExternalPackages": [
+      "sharp",
+      "onnxruntime-node",
+      "@zilliz/milvus2-sdk-node"
+    ]
+  }
+}
