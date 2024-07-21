@@ -46,8 +46,10 @@ export const initSettings = async () => {
     case "mistral":
       initMistralAI();
       break;
+    case "togetherai":
+      initTogetherai();
     default:
-      Togetherai();
+      initOpenAI();
       break;
   }
   Settings.chunkSize = CHUNK_SIZE;
@@ -136,9 +138,9 @@ function initMistralAI() {
 }
 
 
-function Togetherai() {
+function initTogetherai() {
   Settings.llm = new TogetherLLM({
-    model: process.env.MODEL as keyof typeof ALL_AVAILABLE_MISTRAL_MODELS,
+    model: process.env.TOGETHERAI_MODEL as keyof typeof ALL_AVAILABLE_MISTRAL_MODELS,
   });
   Settings.embedModel = new OpenAIEmbedding({
     model: process.env.EMBEDDING_MODEL,

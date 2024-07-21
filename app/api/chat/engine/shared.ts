@@ -16,6 +16,7 @@ export function getMilvusClient() {
     address: process.env.MILVUS_ADDRESS!,
     username: process.env.MILVUS_USERNAME,
     password: process.env.MILVUS_PASSWORD,
+    
   });
 }
 
