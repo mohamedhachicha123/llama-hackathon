@@ -1,4 +1,4 @@
-/* eslint-disable turbo/no-undeclared-env-vars */
+
 import * as dotenv from "dotenv";
 import { VectorStoreIndex, storageContextFromDefaults } from "llamaindex";
 import { MilvusVectorStore } from "llamaindex/storage/vectorStore/MilvusVectorStore";

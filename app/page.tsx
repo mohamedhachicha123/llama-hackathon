@@ -8,8 +8,8 @@ export default function Home() {
       <div className="space-y-2 lg:space-y-10 w-[90%] lg:w-[60rem]">
         <Header />
 
-          <Navbar/>
-        
+          <Navbar/>    
+
         <div className="h-[65vh] flex">
           <ChatSection />
         </div>

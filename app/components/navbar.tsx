@@ -30,7 +30,7 @@ export default function NavBar() {
             <input id="nav-toggle" type="checkbox" />
             <div id="nav-header">
                 <a id="nav-title" href="#" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-codepen">Virtual</i> Teacher
+                Congi<i className="fab fa-codepen">Tutor</i>
                 </a>
                 <label htmlFor="nav-toggle">
                     <span id="nav-toggle-burger"></span>
