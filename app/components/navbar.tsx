@@ -48,7 +48,7 @@ export default function NavBar() {
                 ))}
                 <hr />
                 <div style={{left:"25px"}} className="nav-button">
-                    <i className="fas fa-heart"></i><span>Quiz</span>
+                    <a href="https://cognitutorquiz.vercel.app/"><i className="fas fa-heart"></i><span>Quiz</span></a>
                 </div>             
                 <div id="nav-content-highlight"></div>
             </div>
